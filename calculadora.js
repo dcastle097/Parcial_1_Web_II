@@ -27,4 +27,23 @@
 		}
 	}
 
-	
+	function arit(o){
+		var Display1 = document.f1.txtDisplay1.value;
+		var Display2 = document.f1.txtDisplay2.value;
+		var unum = Display1.substring(Display1.length-1);
+		calcular()
+		if (unum == "+" || unum == "-" || unum=="*" || unum=="/") {
+			unum = unum.replace(unum,o);
+			var res = Display1.substring(0,Display1.length-1);
+			document.f1.txtDisplay1.value = res+unum;
+		}
+		if (Display1 == "" && Display2 != ""){
+			document.f1.txtDisplay1.value = Display2 + o;
+		}
+		else{
+			document.f1.txtDisplay1.value = Display1 + Display2 + o;
+ 		}
+ 		borrar = true;
+	}
+
+
