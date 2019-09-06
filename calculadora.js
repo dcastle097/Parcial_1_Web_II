@@ -45,5 +45,12 @@
  		}
  		borrar = true;
 	}
-
+	function calcular(){
+		var Display1 = document.f1.txtDisplay1.value;
+		var Display2 = document.f1.txtDisplay2.value;
+		document.f1.txtDisplay2.value = eval(Display1 + Display2);
+		document.f1.txtDisplay1.value = "";
+		borrar = true;
+		blocdel = true;
+	}
 
