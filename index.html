@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Calculador parcial 1</title>
 </head>
-<body>
+  <body>
+  <form name="f1"><br>
+        <input type="text" name="txtDisplay1">
+        <br>
+        <input type="text" name="txtDisplay2">
     <div>
         <input type="button" class="clear" onClick="document.f1.txtcaja2.value='0'" value="CE">
         <input type="button" class="clear" onClick="document.f1.reset(); blocdel = false;" value="C">
@@ -38,6 +43,10 @@
         <input type="button" onClick="escribir('.')" value=".">
         <input type="button" class="igual" onClick="calcular()" value="=">
     </div>
+        </form>
 
-<body>
+
+
+    <body>
+
 </html>
