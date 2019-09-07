@@ -1,44 +1,60 @@
 
-    button.arit{
-        background-color:green;
-    }
-    button.igual{
-        background-color: greenyellow;
-    }
-    button.clear{
-        background-color:green;
-    }
-    form{
-        background-color:white;
-    }
-    input[type="text"]{
-        background-color:black;
-        border:0px; 
-        width:250px;
-        height: 40px;
-        font-size: 20px;
-        color: white;
-        text-align: right;
-        pointer-events: none;
-    }
-    input[name="txtcaja1"]{
-        height: 20px;
-        font-size: 16px;
-    }
-    input[name="txtcaja2"]{
-        margin-bottom: 5px;
-        font-size: 26px;
-    }
-    button{
-        font-size: 18px;
-        font-weight:lighter;
-        font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
-        width:60px;border:0px;
-        height: 60px;
-        color: white;
-        background-color:black;
-        margin-bottom: 5px;
+   <!DOCTYPE html>
+<html>
+<head>
+<title>Calculadora ingeniera web</title>
+<style>
+    
+    input[type="button"]:hover{
+        background-color:rgb(141, 144, 112);
+        border:5px;        
+        cursor: pointer;
+        margin-right:5px
+	}
+	input[type="button"].arit{
+        background-color:orangered;
+        
+	}
+	input[type="button"].igual{
+		background-color: green;
+	}
+	input[type="button"].clear{
+		background-color:orangered;
+	}
+	form{
+		background-color:white;
+	}
+	input[type="text"]{
+		background-color:whitesmoke;
+		border:5px;
+		width:250px;
+		height: 40px;
+		font-size: 20px;
+		color: black;
+		text-align: right;
+		pointer-events: none;
+	}
+	input[name="txtcaja1"]{
+		height: 20px;
+		font-size: 16px;
+	}
+	input[name="txtcaja2"]{
+		margin-bottom: 5px;
+		font-size: 26px;
+	}
+	input[type="button"]{
+		font-size: 18px;
+		font-weight:lighter;
+		font-family: Verdana;
+		width:60px;border:0px;
+		height: 60px;
+		color: white;
+		background-color:goldenrod;
+		margin-bottom: 5px;
         }
-    body{
-        background-color:#f1f1f1;
-    }
+	body{
+		background-color:#f1f1f1;
+	}
+</style>
+</head>
+<body>
