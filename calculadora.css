@@ -1,11 +1,11 @@
 
-    button.arit{
+    input[type="button"].arit{
         background-color:green;
     }
-    button.igual{
+    input[type="button"].igual{
         background-color: greenyellow;
     }
-    button.clear{
+    input[type="button"].clear{
         background-color:green;
     }
     form{
@@ -29,7 +29,7 @@
         margin-bottom: 5px;
         font-size: 26px;
     }
-    button{
+    input[type="button"]{
         font-size: 18px;
         font-weight:lighter;
         font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";

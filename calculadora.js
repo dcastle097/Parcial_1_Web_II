@@ -54,3 +54,20 @@ function calcular() {
     blocdel = true;
 }
 
+function validarcaja2() {
+    caja2 = document.f1.txtDisplay2.value;
+    var expreg = /[0-9]+(\.[0-9]+)?$/;
+    if (expreg.test(caja2))
+        alert("la expresion es correcta");
+    else
+        alert("la expresion es incorrecta");
+}
+
+function validarcaja1() {
+    caja1 = document.f1.txtDisplay1.value;
+    var expreg = /((\d)+[-+*/.])+/;
+    if (expreg.test(caja1))
+        alert("la expresion es correcta");
+    else
+        alert("la expresion es incorrecta");
+}
