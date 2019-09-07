@@ -7,43 +7,45 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Calculador parcial 1</title>
 </head>
-
-<body>
-    <form name="f1"><br>
+  <body>
+  <form name="f1"><br>
         <input type="text" name="txtDisplay1">
         <br>
         <input type="text" name="txtDisplay2">
-        <div>
-            <button class="clear" onClick="document.f1.txtcaja2.value='0'" value="CE">CE</button>
-            <button class="clear" onClick="document.f1.reset(); blocdel = false;" value="C">C</button>
-            <button class="clear" onClick="deletecarac()" value="◄">◄</button>
-            <button class="arit" onClick="arit('/')" value="÷">÷</button>
-        </div>
-        <div>
-            <button onclick="escribir(this.value)" value="7">7</button>
-            <button onclick="escribir(this.value)" value="8">8</button>
-            <button onclick="escribir(this.value)" value="9">9</button>
-            <button class="arit" onClick="arit('*')" value="×">x</button>
-        </div>
-        <div>
-            <button onclick="escribir(this.value)" value="4">4</button>
-            <button onclick="escribir(this.value)" value="5">5</button>
-            <button onclick="escribir(this.value)" value="6">6</button>
-            <button class="arit" onClick="arit('-')" value="-">-</button>
-        </div>
-        <div>
-            <button onclick="escribir(this.value)" value="1">1</button>
-            <button onclick="escribir(this.value)" value="2">2</button>
-            <button onclick="escribir(this.value)" value="3">3</button>
-            <button class="arit" onClick="arit('+')" value="+">+</button>
-        </div>
-        <div>
-            <button value="Validar" onclick="validarcaja2()">validar</button>
-            <button onclick="escribir(this.value)" value="0">0</button>
-            <button onClick="escribir('.')" value=".">.</button>
-            <button class="igual" onClick="calcular()" value="=">=</button>
-        </div>
-    </form>
+    <div>
+        <input type="button" class="clear" onClick="document.f1.txtcaja2.value='0'" value="CE">
+        <input type="button" class="clear" onClick="document.f1.reset(); blocdel = false;" value="C">
+        <input type="button" class="clear" onClick="deletecarac()" value="◄">
+        <input type="button" class="arit" onClick="arit('/')" value="÷">
+        
+    </div>
+    <div>
+        <input type="button" onclick="escribir(this.value)" value="7">
+        <input type="button" onclick="escribir(this.value)" value="8">
+        <input type="button" onclick="escribir(this.value)" value="9">
+        <input type="button" class="arit" onClick="arit('*')" value="×">
+    </div>
+    <div>
+        <input type="button" onclick="escribir(this.value)" value="4">
+        <input type="button" onclick="escribir(this.value)" value="5">
+        <input type="button" onclick="escribir(this.value)" value="6">
+        <input type="button" class="arit" onClick="arit('-')" value="-">
+    </div>
+    <div>
+        <input type="button" onclick="escribir(this.value)" value="1">
+        <input type="button" onclick="escribir(this.value)" value="2">
+        <input type="button" onclick="escribir(this.value)" value="3">
+        <input type="button" class="arit" onClick="arit('+')" value="+">
+    </div>
+    <div>
+        <input type="button" value="Validar" onclick="validarcaja2()">
+        <input type="button" onclick="escribir(this.value)" value="0">
+        <input type="button" onClick="escribir('.')" value=".">
+        <input type="button" class="igual" onClick="calcular()" value="=">
+    </div>
+        </form>
+
+
 
     <body>
 
